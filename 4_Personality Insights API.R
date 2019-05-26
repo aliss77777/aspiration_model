@@ -23,8 +23,8 @@ options(RCurlOptions = list(cainfo = system.file("CurlSSL", "cacert.pem", packag
 ## the URL to find this for your account is here (at least for Personality Insights API)
 ## https://console.bluemix.net/services/personality-insights
 pi_url="https://gateway.watsonplatform.net/personality-insights/api/v3/profile?version=2017-10-13&consumption_preferences=true&csv_headers=true"
-username = "109b8520-444a-40f5-8abd-b8bc0e850204" # yours goes here from service credentials
-password = "ptjvmrw6SR3e" # yours goes here from service credentials
+username = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" # yours goes here from service credentials
+password = "XXXXXXXXXXXX" # yours goes here from service credentials
 username_password = paste(username,":",password,sep="")
 
 
